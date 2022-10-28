@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<body>
+  <header>
+    <nav>
+      <div class="heading">
+        <h1 class="name">ademi<span>segun</span>
+        </h1>
+        <ul>
+          <li><a href="#">home</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#services">services</a></li>
+          <li><a href="contact.html">contact me</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div id="about" class="about">
+      <div class="about-me">
+        <div class="img-box">
+          <img src="/pic/adeola.jpg">
+        </div>
+        <div class="note">
+          <h1>about me</h1>
+          <h3>Adeola<span>Awe</span></h3>
+          <h5>i am a frontend <span>developer</span></h5>
+          <p>i am a junior frontend developer. i'm acquiring the skills necessary to be able to build great, premium,
+            and neat platforms. i am very passionate and dedicated to my work</hp>
+          <ul>
+            <li><strong>hobbies:</strong> reading, researching, dancing</li>
+            <li><strong>priorities:</strong> God, family, work</li>
+            <li><strong>skills:</strong> communication, listening, problem solving</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- services section -->
+    <div id="services" class="services">
+      <div class="title">
+        <h2>services</h2>
+      </div>
+      <div class="box">
+        <div class="card">
+          <i class="fa-solid fa-code"></i>
+          <h5>HTML</h5>
+          <div class="text">
+            <p>websites built with clean html codes. and proper html semamtics </p>
+            <p style="text-align: center;">
+              <a href="contact.html" type="button" class="button">contact me</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <i class="fa-brands fa-css3"></i>
+          <h5>CSS</h5>
+          <div class="text">
+            <p>beautiful styling with css. taking into consederation all css rules</p>
+            <p style="text-align: center;">
+              <a href="contact.html" type="button" class="button">contact me</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <i class="fa-brands fa-js"></i>
+          <h5>JavaScript</h5>
+          <div class="text">
+            <p>use of proper javascript to further beautify the website and bring it to live</p>
+            <p style="text-align: center;">
+              <a href="contact.html" type="button" class="button">contact me</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </main>
+  <footer>
+    <div class="socials">
+      <a href="#"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+    <p>made by <span>AdemiSegun</span></p>
+  </footer>
+</body>
+
+</html>
